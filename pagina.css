@@ -1,0 +1,72 @@
+body {
+  width: 820px;
+  margin: auto;
+  padding: 20px;
+  padding-left: 400px;
+  text-align: justify;
+  hyphens: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background: hsl(147, 50%, 65%);
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {background-color: lightblue;}
+}
+ilustration section {
+	display: inline;
+}
+body.menu {
+	width: auto;
+	padding-left: 15px;
+	column-count: auto;
+	background-image: hsl(147, 50%, 65%);
+}
+#riquadro-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 100%;
+	border: none;
+}
+#fallback-menu nav {
+	display: none;
+}
+.ilustration {
+	display: inline;
+	margin: 20px;
+	shape-outside: border-box;
+}
+.ilustration img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	object-position: 0 0;
+	border-radius: 120px;
+}
+.ilustration figcaption {
+	display: inline;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+h1 {
+    font-family: Copperplate, Papyrus, fantasy;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	page-break-before: always;
+}
+p {
+	display: inline;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 22px;
+	page-break-inside: avoid;
+}
+video {
+	width: 100%;
+	height: auto;
+}
